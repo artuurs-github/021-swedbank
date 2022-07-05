@@ -40,7 +40,7 @@ const StepFive = ({
           <li className="steps-ongoing steps-selected">
             <div className="steps-number"> 5 </div>
             Step five
-            <div className="steps-sub-title"> Consent </div>
+            <div className="steps-sub-title"> Confirmation </div>
           </li>
           <li>
             <div className="steps-number"> 6 </div>
@@ -54,11 +54,11 @@ const StepFive = ({
       <fieldset>
 
         <legend>
-          <span className="h2"> Step five: Consent </span>
+          <span className="h2"> Step five: Confirmation </span>
         </legend>
 
         <legend>
-          Do you consent?
+          I confirm that the information I have provided is true and can be verified.
         </legend>
 
         <div className="radio">
@@ -67,7 +67,7 @@ const StepFive = ({
             id="consent"
             onChange={(e) => { onConsentChange(e.target.value); }}
           />
-          <label htmlFor="consent"> Yes </label>
+          <label htmlFor="consent"> Yes! </label>
         </div>
 
         <div className="d-flex justify-content-between pt-156">

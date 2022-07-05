@@ -1,7 +1,10 @@
 .form-container {
   max-width: 650px;
-  border: 3px dashed lightgray;
+  border: 1px solid #ebe7e2;
+  border-radius: 5px;
   padding: 25px 25px 0px 25px;
+  -webkit-box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.5); 
+  box-shadow: 5px 5px 5px -5px rgba(0,0,0,0.5);
 }
 
 .error {
@@ -21,8 +24,6 @@
   position: relative;
   width: 20px;
   margin-left: 5px;
-  border: 1px solid black;
-  border-radius: 45px;
 }
 
 .tooltip .tooltiptext {
@@ -666,11 +667,11 @@ input[type="radio"]:focus {
 .steps ol li:first-child:after {
   left: auto;
   right: 0;
-  width: 50%;
+  width: 60%;
 }
 
 .steps ol li:last-child:after {
-  width: 50%;
+  width: 60%;
 }
 
 .steps ol .steps-completed {

@@ -48,7 +48,7 @@ const StepSix = ({
           <li className="steps-completed">
             <div className="material-icons steps-icon"> check </div>
             Step five
-            <div className="steps-sub-title"> Consent </div>
+            <div className="steps-sub-title"> Confirmation </div>
           </li>
           <li className="steps-ongoing steps-selected">
             <div className="steps-number"> 6 </div>
@@ -107,9 +107,9 @@ const StepSix = ({
               {' '}{plan}
             </span>
           </p>
-          <p> Consent:
+          <p> Confirmation:
             <span className="summary__text">
-              {' '} Yes
+              {' '} Yes!
             </span>
           </p>
         </div>

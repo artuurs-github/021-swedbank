@@ -56,7 +56,7 @@ const StepFour = ({
           <span className="h2"> Step four: Product </span>
         </legend>
 
-        <legend> Choose the Budget Evaluation Plan® </legend>
+        <legend> Choose your Budget Evaluation plan </legend>
 
         <div className="form-group mb-4">
           <select
@@ -67,9 +67,9 @@ const StepFour = ({
             onChange={(e) => { onProductChange(e.target.value); }}
           >
             <option value="default" disabled> --- </option>
-            <option value="Common (9.99 €)"> Common (9.99 €) </option>
-            <option value="Rare (29.99 €)"> Rare (29.99 €) </option>
-            <option value="Legendary (49.99 €)"> Legendary (49.99 €) </option>
+            <option value="Basic (5.99 €)"> Basic (5.99 €) </option>
+            <option value="Standard (9.99 €)"> Standard (9.99 €) </option>
+            <option value="Advanced (14.99 €)"> Advanced (14.99 €) </option>
           </select>
         </div>
 

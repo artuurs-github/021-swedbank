@@ -15,7 +15,7 @@ const ThankYouPage = ({ email }: ThankYouPageProps) => {
 
         <legend>
           <span className="h2"> Thank you for your submition! </span>
-          <p> Your personalized Budget Evaluation Plan® will be sent to your email: <br /> {email} </p>
+          <p> Your personalized Budget Evaluation will be sent to your email: <br /> {email} </p>
         </legend>
 
       </fieldset>
