@@ -102,7 +102,7 @@ const StepSix = ({
               {' '}{description}
             </span>
           </p>
-          <p> Budget evaluation plan:
+          <p> Budget Evaluation:
             <span className="summary__text">
               {' '}{plan}
             </span>

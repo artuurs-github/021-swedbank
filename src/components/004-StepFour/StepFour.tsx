@@ -56,7 +56,7 @@ const StepFour = ({
           <span className="h2"> Step four: Product </span>
         </legend>
 
-        <legend> Choose your Budget Evaluation plan </legend>
+        <legend> Choose your Budget Evaluation product: </legend>
 
         <div className="form-group mb-4">
           <select

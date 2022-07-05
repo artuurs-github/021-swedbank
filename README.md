@@ -1,8 +1,18 @@
-# Getting Started with Create React App
+# react-multistep-form
+
+## Project link
+```
+artuurs-github-react-multistep-form.netlify.app
+```
+
+## Project description
+This project is an attempt to create a single-page application - a multi-step form for a product/ service (Budget Evaluation) - based on the [Swedbank Pay Design Guide](https://design.swedbankpay.com/v/10.1.0/patterns/forms).
+
+Made with React.js.
+
+## Additional notes
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
 
 In the project directory, you can run:
 
